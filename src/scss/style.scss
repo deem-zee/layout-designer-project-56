@@ -1,0 +1,51 @@
+body {
+    font-family: serif, Roboto;
+    font-size: 18px;
+    line-height: 1.5;
+    color:  #cacaca;
+    background: #08020d;
+}
+
+@media  screen and (min-width: 1240px) {
+    h1 {
+        font-size: 60px;
+        line-height: 90px;
+        font-weight: bold;
+        text-transform: capitalize;
+        -webkit-text-transform: capitalize;
+        -moz-text-transform: capitalize;
+        -ms-text-transform: capitalize;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 57px;
+        font-weight: bold;
+        text-transform: capitalize;
+        -webkit-text-transform: capitalize;
+        -moz-text-transform: capitalize;
+        -ms-text-transform: capitalize;
+    }
+}
+
+@media  screen and (max-width: 1239px) {
+    h1 {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: bold;
+        text-transform: capitalize;
+        -webkit-text-transform: capitalize;
+        -moz-text-transform: capitalize;
+        -ms-text-transform: capitalize;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: bold;
+        text-transform: capitalize;
+        -webkit-text-transform: capitalize;
+        -moz-text-transform: capitalize;
+        -ms-text-transform: capitalize;
+    }
+}
