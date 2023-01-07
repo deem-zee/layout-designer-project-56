@@ -1,0 +1,275 @@
+body {
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #cacaca;
+  background: #08020d;
+  margin: 0;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+@media screen and (min-width: 1240px) {
+  h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFFFFF;
+  }
+  h2 {
+    font-size: 38px;
+    line-height: 57px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFFFFF;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+  }
+  .header-container {
+    display: flex;
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 25px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 66px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .logo img {
+    width: 25px;
+    height: 25px;
+    margin-right: 16px;
+  }
+  .header-menu {
+    margin-left: 24px;
+    font-size: 11px;
+    line-height: 16px;
+    align-self: center;
+  }
+  .search {
+    margin-left: auto;
+    width: 248px;
+    height: 25px;
+    background: #3C3B3D;
+    border-radius: 50px;
+    border: none;
+    padding-left: 10px;
+  }
+  .search::-moz-placeholder {
+    text-transform: uppercase;
+    color: #757575;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .search:-ms-input-placeholder {
+    text-transform: uppercase;
+    color: #757575;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .search::placeholder {
+    text-transform: uppercase;
+    color: #757575;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  #page-description {
+    background: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 200px;
+  }
+  #page-description form {
+    width: 570px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #page-description .form-input {
+    box-sizing: border-box;
+    min-width: 270px;
+    min-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+    background: transparent;
+  }
+  #page-description .form-input::-moz-placeholder {
+    color: #FFFFFF;
+  }
+  #page-description .form-input:-ms-input-placeholder {
+    color: #FFFFFF;
+  }
+  #page-description .form-input::placeholder {
+    color: #FFFFFF;
+  }
+  #page-description .access-btn {
+    width: 570px;
+    min-height: 50px;
+    padding-left: 20px;
+    background: #34C176;
+    font-size: 13.3px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+  }
+  #page-description p {
+    color: #FFFFFF;
+  }
+}
+@media screen and (max-width: 1239px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    text-transform: uppercase;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 25px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 66px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .logo img {
+    width: 25px;
+    height: 25px;
+    margin-right: 16px;
+  }
+  .header-menu {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .search {
+    margin-left: auto;
+    height: 25px;
+    background: #3C3B3D;
+    border-radius: 50px;
+    border: none;
+    padding-left: 10px;
+  }
+  .search::-moz-placeholder {
+    text-transform: uppercase;
+    color: #757575;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .search:-ms-input-placeholder {
+    text-transform: uppercase;
+    color: #757575;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .search::placeholder {
+    text-transform: uppercase;
+    color: #757575;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  #page-description {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 200px;
+  }
+  #page-description form {
+    width: 570px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #page-description .form-input {
+    box-sizing: border-box;
+    min-width: 270px;
+    min-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+    background: transparent;
+  }
+  #page-description .form-input::-moz-placeholder {
+    color: #FFFFFF;
+  }
+  #page-description .form-input:-ms-input-placeholder {
+    color: #FFFFFF;
+  }
+  #page-description .form-input::placeholder {
+    color: #FFFFFF;
+  }
+  #page-description .access-btn {
+    width: 570px;
+    min-height: 50px;
+    padding-left: 20px;
+    background: #34C176;
+    font-size: 13.3px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+  }
+  #page-description p {
+    color: #FFFFFF;
+  }
+}/*# sourceMappingURL=app.css.map */
