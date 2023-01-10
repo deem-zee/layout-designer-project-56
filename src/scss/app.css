@@ -22,6 +22,10 @@ body {
   font-family: Roboto;
   src: url("../fonts/Roboto-Bold.ttf");
 }
+.white {
+  color: #fff;
+}
+
 .ml-16 {
   margin-left: 16px;
 }
@@ -34,8 +38,36 @@ body {
   margin-left: 90px;
 }
 
+.mb-46 {
+  margin-bottom: 46px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+.mt-43 {
+  margin-top: 43px;
+}
+
+.mt-64 {
+  margin-top: 64px;
+}
+
 .pl-20 {
   padding-left: 20px;
+}
+
+.pb-64 {
+  padding-bottom: 64px;
+}
+
+.gap-50 {
+  gap: 50px;
 }
 
 .flex-row {
@@ -47,6 +79,20 @@ body {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-standart {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+
 .container {
   box-sizing: content-box;
   width: 1200px;
@@ -54,11 +100,17 @@ body {
   padding-right: 20px;
 }
 
+.btn {
+  color: #fff;
+  width: 100%;
+  min-height: 50px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
 .text-header {
   text-transform: uppercase;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 11px;
   line-height: 16px;
   /* identical to box height, or 150% */
@@ -107,7 +159,6 @@ header {
   background: url("../../src/images/banner.png");
   background-position: center;
   background-size: cover;
-  width: 100%;
   color: #cacaca;
   display: flex;
   justify-content: center;
@@ -135,6 +186,8 @@ h2 {
 
 .description {
   margin-top: 30px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .form-access {
@@ -166,13 +219,89 @@ h2 {
 
 .submit-access {
   border: none;
-  color: #fff;
   background: #34c176;
+}
+
+.page-pricing {
+  padding-top: 100px;
   width: 100%;
-  min-height: 50px;
-  padding: 20px 30px;
-  border-radius: 5px;
+}
+
+.page-pricing-container {
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.page-pricing-header {
+  width: 100%;
+}
+
+.pricing-item {
+  box-sizing: border-box;
+  width: 370px;
+  border-radius: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.bg-free {
+  background: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  background: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing-header {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  text-align: center;
   text-transform: uppercase;
+  color: #fff;
+}
+
+.pricing-value {
+  font-size: 64px;
+  line-height: 100%;
+}
+
+.pricing-value-currency {
+  font-size: 32px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.pricing-btn {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.pricing-footer {
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
+.page-pricing-description {
+  font-size: 16px;
+  line-height: 150%;
+  width: 100%;
 }
 
 @media screen and (max-width: 1239px) {
@@ -198,6 +327,13 @@ h2 {
     line-height: 27px;
   }
   .input-access {
+    width: 100%;
+  }
+  .pricing-sector {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .pricing-item {
     width: 100%;
   }
 }/*# sourceMappingURL=app.css.map */
