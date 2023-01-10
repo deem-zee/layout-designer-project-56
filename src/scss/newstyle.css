@@ -13,8 +13,16 @@
   font-family: Roboto;
   src: url("../fonts/Roboto-Bold.ttf");
 }
+.dark-gray {
+  color: #cacaca;
+}
+
 .white {
   color: #fff;
+}
+
+.orange {
+  color: #f89202;
 }
 
 .ml-16 {
@@ -41,6 +49,10 @@
   margin-bottom: 200px;
 }
 
+.mt-24 {
+  margin-top: 24px;
+}
+
 .mt-43 {
   margin-top: 43px;
 }
@@ -57,8 +69,16 @@
   padding-bottom: 64px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 .gap-50 {
   gap: 50px;
+}
+
+.order-1 {
+  order: 1;
 }
 
 .flex-row {
@@ -76,6 +96,10 @@
 
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-standart {
@@ -173,6 +197,13 @@ h1 {
 h2 {
   font-size: 38px;
   line-height: 57px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  margin-top: 0;
 }
 
 .description {
@@ -295,6 +326,51 @@ h2 {
   width: 100%;
 }
 
+.page-news {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.news-item {
+  width: 100%;
+}
+
+.news-item-img {
+  width: 575px;
+}
+
+.news-item-inner-container {
+  width: 575px;
+}
+
+.news-item-header {
+  text-transform: capitalize;
+}
+
+.authname {
+  font-size: 12px;
+  line-height: 19px;
+  /* identical to box height, or 160% */
+  text-transform: uppercase;
+}
+
+.to-album {
+  font-size: 12px;
+  line-height: 19px;
+  padding: 16px 30px;
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  box-sizing: content-box;
+  text-decoration: none;
+  margin-top: 48px;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 1239px) {
   .flex-row {
     flex-wrap: wrap;
@@ -317,6 +393,10 @@ h2 {
     font-size: 18px;
     line-height: 27px;
   }
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
   .input-access {
     width: 100%;
   }
@@ -326,5 +406,28 @@ h2 {
   }
   .pricing-item {
     width: 100%;
+  }
+  .news-item {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    text-align: left;
+  }
+  .news-item-inner-container {
+    width: 100%;
+  }
+  .news-body {
+    width: 100%;
+  }
+  .news-item-text {
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .news-item-img {
+    width: 100%;
+    order: 0;
   }
 }/*# sourceMappingURL=newstyle.css.map */
