@@ -50,6 +50,10 @@
     padding-bottom: 5px;
 }
 
+.pb-64 {
+    padding-bottom: 64px;
+}
+
 .pb-200 {
     padding-bottom: 200px;
 }
@@ -74,6 +78,11 @@
     margin-top: 48px;
 }
 
+
+.mt-64 {
+    margin-top: 64px;
+}
+
 .mr-90 {
     margin-right: 90px;
 }
@@ -82,12 +91,24 @@
     margin-bottom: 0;
 }
 
+.mb-45 {
+    margin-bottom: 45px;
+}
+
 .mb-48 {
     margin-bottom: 48px;
 }
 
+.mb-64 {
+    margin-bottom: 64px;
+}
+
 .mb-100 {
     margin-bottom: 100px;
+}
+
+.mb-200 {
+    margin-bottom: 200px;
 }
 
 .ml-16 {
@@ -275,6 +296,84 @@ header {
 }
 
 
+// page-pricing 
+
+.page-pricing {
+
+}
+
+.pricing-plan {
+    font-size: 24px;
+    line-height: 36px;
+    color: $white;
+    font-weight: 400;
+}
+
+.pricing-header {
+    color: $white;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pricing-description {
+    width: 100%;
+}
+
+.pricing-plans {
+    width: 100%;
+}
+
+.pricing-btn {
+    color: $white;
+    font-size: 16px;
+    line-height: 150%;
+    border: 1px solid $white;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    // text-align: center;
+}
+
+.pricing-footer {
+    font-size: 12.8px;
+    line-height: 150%;
+    color: $white;
+}
+
+.pricing-item {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+}
+
+.pricing-value {
+    font-size: 64px;
+    line-height: 100%;
+    color: $white;
+    sup {
+        font-size: 32px;
+        line-height: 150%;
+    }
+}
+
+.bg-free {
+    background-image: url('../images/subscribe_1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-standart {
+    background-image: url('../images/subscribe_2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-premium {
+    background-image: url('../images/subscribe_3.png');
+    background-position: center;
+    background-size: cover;
+}
+
 // page-news
 .page-news {
     width: 100%;
@@ -438,6 +537,21 @@ header {
     .registration-submit {
         min-width: 100%;
     }
+
+// page-pricing
+
+.pricing-plans {
+    flex-wrap: wrap;
+}
+
+.pricing-item {
+    width: 100%;
+}
+
+.pricing-plan {
+    font-size: 16px;
+    line-height: 24px;
+}
 
 // page-news
 .news-item {
