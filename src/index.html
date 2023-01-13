@@ -8,31 +8,32 @@
     <link rel="stylesheet" href="scss/app.css">
 </head>
 <body>
-    <header class="flex-row justify-center">
+    <header>
         <div class="header container flex-row align-center">
-            <div class="logo">
-                <img src="./images/logo.svg" alt=""  class="mr-16">
-                <span class="mr-90">Music Box</span>
+            <div class="logo flex-row align-center mr-90">
+                <img src="./images/logo.svg" alt="logo" class="logo-img ">
+                <span class="text-standart text-uppercase ml-16">music box</span>
             </div>
-                <div class="header-menu">Главная</div>
-                <div class="header-menu ml-25">Каталог</div>
-                <div class="header-menu ml-25">Исполнители</div>
-                <div class="header-menu ml-25">Контакты</div>
-                <input type="text" class="search" placeholder="поиск...">
-            </div>
+            <ul class="flex-row nav">
+                <li class="nav-item text-standart text-uppercase no-li-decor">Главная</li>
+                <li class="nav-item text-standart text-uppercase no-li-decor ml-25">Каталог</li>
+                <li class="nav-item text-standart text-uppercase no-li-decor ml-25">Исполнители</li>
+                <li class="nav-item text-standart text-uppercase no-li-decor ml-25">Контакты</li>
+            </ul>
+            <input type="text" class="search text-standart text-uppercase pl-10 pr-10 pt-5 pb-5" placeholder="поиск...">
         </div>
     </header>
     <main>
-        <div id="page-description" class="flex-row justify-center">
-            <div class="container flex-column align-center">
-              <h1>Онлайн музыка где угодно</h1>
-              <h2>без ограничений</h2>
-              <p class="description">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
-              <form action="#" class="access flex-row">
-                  <input type="text" placeholder="Имя" class="access-input pl-20">
-                  <input type="text" placeholder="Email" class="access-input pl-20">
-                  <input type="submit" value="Получить доступ" class="access-btn">
-              </form>  
+        <div id="page-description" class="page-description pt-200 pb-200">
+            <div class="container text-center flex-column">
+                <h1 class="mt-0 mb-0 text-uppercase text-center white">Онлайн музыка где угодно</h1>
+                <h2 class="mt-0 mb-0 text-uppercase white">без ограничений</h2>
+                <p class="page-description-text text-standart white text-center mt-30">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+                <form action="#" class="registration flex-row">
+                    <input type="text" class="registration-input bg-transparent pl-20" placeholder="Имя" >
+                    <input type="text" class="registration-input bg-transparent pl-20" placeholder="Email">
+                    <input type="submit" value="Получить доступ" class="white bg-green btn registration-submit text-uppercase">
+                </form>
             </div>
         </div>
     </main>
