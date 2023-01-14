@@ -533,10 +533,6 @@ header {
   width: 551px;
 }
 
-.even {
-  margin-left: 50px;
-}
-
 .track-cover {
   width: 55px;
   height: 55px;
@@ -555,6 +551,28 @@ header {
 .track-length {
   margin-left: auto;
   justify-self: flex-end;
+}
+
+.disc-cover {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 17px;
+}
+
+.album-name, .artist-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.album-date, .followers {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 250px;
 }
 
 @media screen and (max-width: 1239px) {
@@ -644,5 +662,21 @@ header {
   }
   .popular-track {
     width: 100%;
+  }
+  .disc-cover {
+    width: 137px;
+    height: 137px;
+  }
+  .album-name, .artist-name {
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 137px;
+  }
+  .album-date, .followers {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #e0e0e0;
+    max-width: 137px;
   }
 }/*# sourceMappingURL=app.css.map */

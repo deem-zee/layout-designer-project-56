@@ -572,6 +572,31 @@ header {
     justify-self: flex-end;
 }
 
+// discography
+
+.disc-cover {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 17px;
+}
+
+.album-name, .artist-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.album-date, .followers {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 250px;
+}
+
+
 @media  screen and (max-width: 1239px) {
 
     h1 {
@@ -718,6 +743,26 @@ header {
     width: 100%;
 }
 
+// discography
+
+.disc-cover {
+    width: 137px;
+    height: 137px;
+}
+
+.album-name, .artist-name {
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 137px;
+}
+
+.album-date, .followers {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $gray;
+    max-width: 137px;
+}
 
 
 }
