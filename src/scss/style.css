@@ -223,6 +223,10 @@
   gap: 50px;
 }
 
+.gap-25-50 {
+  gap: 25px 50px;
+}
+
 .container {
   width: 1200px;
   padding-left: 20px;
@@ -520,10 +524,6 @@ header {
   width: 551px;
 }
 
-.even {
-  margin-left: 50px;
-}
-
 .track-cover {
   width: 55px;
   height: 55px;
@@ -631,8 +631,5 @@ header {
   }
   .popular-track {
     width: 100%;
-  }
-  .even {
-    margin-left: 0;
   }
 }/*# sourceMappingURL=style.css.map */
