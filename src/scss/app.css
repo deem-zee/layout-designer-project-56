@@ -47,6 +47,10 @@ body {
   padding-bottom: 64px;
 }
 
+.pb-100 {
+  padding-bottom: 100px;
+}
+
 .pb-200 {
   padding-bottom: 200px;
 }
@@ -71,6 +75,10 @@ body {
   margin-top: 48px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .mt-64 {
   margin-top: 64px;
 }
@@ -81,6 +89,14 @@ body {
 
 .mb-0 {
   margin-bottom: 0;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
 }
 
 .mb-45 {
@@ -103,6 +119,10 @@ body {
   margin-bottom: 200px;
 }
 
+.ml-15 {
+  margin-left: 15px;
+}
+
 .ml-16 {
   margin-left: 16px;
 }
@@ -115,8 +135,20 @@ body {
   margin-left: 25px;
 }
 
+.ml-50 {
+  margin-left: 50px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
 .white {
   color: #fff;
+}
+
+.text-darkgray {
+  color: #cacaca;
 }
 
 .bg-green {
@@ -125,6 +157,26 @@ body {
 
 .bg-transparent {
   background: transparent;
+}
+
+.bg-purple {
+  background: #5328a1;
+}
+
+.bg-red {
+  background: #95390c;
+}
+
+.bg-banner {
+  background-image: url("../images/banner.png");
+}
+
+.bg-artist {
+  background-image: url("../images/Morten Harket.png");
+}
+
+.color-invert {
+  filter: invert(1);
 }
 
 .text-standart {
@@ -158,6 +210,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .align-center {
@@ -243,7 +299,6 @@ header {
 
 .page-description {
   width: 100%;
-  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
@@ -461,6 +516,43 @@ header {
   flex-wrap: wrap;
 }
 
+.btn-player {
+  width: 200px;
+  margin-right: 1.5rem;
+}
+.btn-player img {
+  width: 20px;
+  height: 20px;
+}
+
+.popular-track {
+  width: 551px;
+}
+
+.even {
+  margin-left: 50px;
+}
+
+.track-cover {
+  width: 55px;
+  height: 55px;
+}
+
+.track-title {
+  margin: 0;
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+
+.artist-title {
+  margin: 0;
+}
+
+.track-length {
+  margin-left: auto;
+  justify-self: flex-end;
+}
+
 @media screen and (max-width: 1239px) {
   h1 {
     font-size: 30px;
@@ -538,6 +630,18 @@ header {
   .footer-item {
     display: block;
     width: 100%;
+    margin-left: 0;
+  }
+  .btn-player {
+    margin-bottom: 1.5rem;
+  }
+  .player-btns {
+    flex-direction: column;
+  }
+  .popular-track {
+    width: 100%;
+  }
+  .even {
     margin-left: 0;
   }
 }/*# sourceMappingURL=app.css.map */

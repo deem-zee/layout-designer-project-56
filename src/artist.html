@@ -5,8 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портал «Music Box»</title>
+    <link rel="stylesheet" href="scss/app.css">
 </head>
 <body>
-    
-</body>
-</html>
+    <header>
+        <div class="header container flex-row align-center">
+            <div class="logo flex-row align-center mr-90">
+                <img src="./images/logo.svg" alt="logo" class="logo-img ">
+                <span class="text-standart text-uppercase ml-16">music box</span>
+            </div>
+            <ul class="flex-row nav">
+                <li class="text-standart text-uppercase no-li-decor"><a href="./index.html" class="nav-item no-decor text-darkgray">Главная</a></li>
+                <li class="text-standart text-uppercase no-li-decor ml-25"><a href="#" class="nav-item no-decor text-darkgray">Каталог</a></li>
+                <li class="text-standart text-uppercase no-li-decor ml-25"><a href="./artist.html" class="nav-item no-decor text-darkgray">Исполнители</a></li>
+                <li class="text-standart text-uppercase no-li-decor ml-25"><a href="#" class="nav-item no-decor text-darkgray">Контакты</a></li>
+            </ul>
+            <input type="text" class="search text-standart text-uppercase pl-10 pr-10 pt-5 pb-5" placeholder="поиск...">
+        </div>
+    </header>
+    <main>
+        <div id="page-description" class="page-description pt-200 pb-200 bg-artist">
+            <div class="container flex-column align-start">
+                <h1 class="text-uppercase mb-16 mt-50">Morten Harket</h1>
+                <p class="text-standart mt-0">24 875 поклонников</p>
+                <div class="flex-row player-btns">
+                    <button class="btn btn-player text-uppercase bg-purple white flex-row align-center"><img src="./images/play-button.svg" alt="play" class="color-invert"><span class="ml-16 text-uppercase">МИКС</span></button>
+                    <button class="btn btn-player text-uppercase bg-red white flex-row align-center"><img src="./images/heart.svg" alt="play" class="color-invert"><span class="ml-16 text-uppercase"></span>В ИЗБРАННОЕ</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-popular-track" class="pt-100 pb-100">
+            <div class="container flex-column align-start">
+                <h2 class="text-uppercase white">Популярные треки</h2>
+                <div class="popular-tracks flex-row flex-wrap">
+                    <div class="popular-track flex-row align-center mb-25">
+                        <img src="./images/Wild Seed.png" alt="Wild seed" class="track-cover">
+                        <div class="track-info flex-column">
+                            <h3 class="track-title text-uppercase ml-15">Spanish Step</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">4:07</div>
+                    </div>
+                    <div class="popular-track flex-row align-center mb-25 even">
+                        <img src="./images/Letter from Egypt.png" alt="letter from egypt" class="track-cover">
+                        <div class="track-info flex-column ml-15">
+                            <h3 class="track-title text-uppercase">With You - With Me</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">3:48</div>
+                    </div>
+                    <div class="popular-track flex-row align-center mb-25">
+                        <img src="./images/Brother.png" alt="brother" class="track-cover">
+                        <div class="track-info flex-column ml-15">
+                            <h3 class="track-title text-uppercase">Brother</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">5:05</div>
+                    </div>
+                    <div class="popular-track flex-row align-center mb-25 even">
+                        <img src="./images/Wild Seed.png" alt="Wild seed" class="track-cover">
+                        <div class="track-info flex-column ml-15">
+                            <h3 class="track-title text-uppercase">Brodsky Tune</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">4:24</div>
+                    </div>
+                    <div class="popular-track flex-row align-center mb-25">
+                        <img src="./images/Letter from Egypt.png" alt="letter from egypt" class="track-cover">
+                        <div class="track-info flex-column ml-15">
+                            <h3 class="track-title text-uppercase">Darkspace</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">3:45</div>
+                    </div>
+                    <div class="popular-track flex-row align-center mb-25 even">
+                        <img src="./images/Out of My Hands.png" alt="out of my hands" class="track-cover">
+                        <div class="track-info flex-column">
+                            <h3 class="track-title text-uppercase ml-15">Burn Money Burn</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">3:52</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer text-standart">
+        <div class="container flex-row footer-top">
+            <div class="footer-item">
+                <h3>О нас</h3>
+                <a href="#">История компании</a>
+                <a href="#">Карьера</a>
+                <a href="#">Особенности</a>
+                <a href="#">Пресса</a>
+            </div>
+            <div class="footer-item">
+                <h3>Поддержка</h3>
+                <a href="#">База знаний</a>
+                <a href="#">Тарифы</a>
+                <a href="#">Мобильное приложение</a>
+                <a href="#">Условия использования</a>
+            </div>
+            <div class="footer-item">
+                <h3>Контакты</h3>
+                <a href="#">hello@music.box</a>
+                <a href="#">Russia, Moscow. Music Box studio</a>
+                <a href="#">+ 7 499 999 99 99</a>
+            </div>
+            <div class="footer-item">
+                <h3>Подписывайтесь</h3>
+                <img src="./images/Google+.png" alt="google+">
+                <img src="./images/Twitter.png" alt="twitter" class="ml-24">
+            </div>
+        </div>
+        <div class="white-line"></div>
+        <div class="container flex-row footer-bot">
+            <a href="" class="footer-item">Магазин</a>
+            <a href="" class="ml-16  footer-item">Обслуживание</a>
+            <a href="" class="ml-16  footer-item">Блог</a>
+            <a href="" class="ml-16  footer-item">Поддержка</a>
+            <a href="" class="ml-16  footer-item">Контакты</a>
+        </div>
+    </footer>
