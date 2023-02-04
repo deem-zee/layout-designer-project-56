@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портал «Music Box»</title>
+    <link rel="stylesheet" href="scss/app.css">
+</head>
+<body>
+    <header>
+        <div class="header container flex-row align-center">
+            <div class="logo flex-row align-center mr-90">
+                <img src="./images/logo.svg" alt="logo" class="logo-img ">
+                <span class="text-standart text-uppercase ml-16">music box</span>
+            </div>
+            <ul class="flex-row nav">
+                <li class="text-standart text-uppercase no-li-decor"><a href="./index.html" class="nav-item no-decor text-darkgray">Главная</a></li>
+                <li class="text-standart text-uppercase no-li-decor ml-25"><a href="#" class="nav-item no-decor text-darkgray">Каталог</a></li>
+                <li class="text-standart text-uppercase no-li-decor ml-25"><a href="./artist.html" class="nav-item no-decor text-darkgray">Исполнители</a></li>
+                <li class="text-standart text-uppercase no-li-decor ml-25"><a href="#" class="nav-item no-decor text-darkgray">Контакты</a></li>
+            </ul>
+            <input type="text" class="search text-standart text-uppercase pl-10 pr-10 pt-5 pb-5" placeholder="поиск...">
+        </div>
+    </header>
+    <main>
+        <div id="page-description" class="page-description pt-200 pb-200 bg-artist">
+            <div class="container flex-column align-start">
+                <h1 class="text-uppercase mb-16 mt-50">Morten Harket</h1>
+                <p class="text-standart mt-0">24 875 поклонников</p>
+                <div class="flex-row player-btns">
+                    <button class="btn btn-player text-uppercase bg-purple white flex-row align-center"><img src="./images/play-button.svg" alt="play" class="color-invert"><span class="ml-16 text-uppercase">МИКС</span></button>
+                    <button class="btn btn-player text-uppercase bg-red white flex-row align-center"><img src="./images/heart.svg" alt="play" class="color-invert"><span class="ml-16 text-uppercase"></span>В ИЗБРАННОЕ</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-popular-track" class="pt-100">
+            <div class="container flex-column align-start">
+                <h2 class="text-uppercase white">Популярные треки</h2>
+                <div class="popular-tracks flex-row flex-wrap gap-25-50">
+                    <div class="popular-track flex-row align-center">
+                        <img src="./images/Wild Seed.png" alt="Wild seed" class="track-cover">
+                        <div class="track-info flex-column ml-15 align-start">
+                            <h3 class="track-title text-uppercase">Spanish Step</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">4:07</div>
+                    </div>
+                    <div class="popular-track flex-row align-center">
+                        <img src="./images/Letter from Egypt.png" alt="letter from egypt" class="track-cover">
+                        <div class="track-info flex-column ml-15 align-start">
+                            <h3 class="track-title text-uppercase">With You - With Me</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">3:48</div>
+                    </div>
+                    <div class="popular-track flex-row align-center">
+                        <img src="./images/Brother.png" alt="brother" class="track-cover">
+                        <div class="track-info flex-column ml-15 align-start">
+                            <h3 class="track-title text-uppercase">Brother</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">5:05</div>
+                    </div>
+                    <div class="popular-track flex-row align-center">
+                        <img src="./images/Wild Seed.png" alt="Wild seed" class="track-cover">
+                        <div class="track-info flex-column ml-15 align-start">
+                            <h3 class="track-title text-uppercase">Brodsky Tune</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">4:24</div>
+                    </div>
+                    <div class="popular-track flex-row align-center">
+                        <img src="./images/Letter from Egypt.png" alt="letter from egypt" class="track-cover">
+                        <div class="track-info flex-column ml-15 align-start">
+                            <h3 class="track-title text-uppercase">Darkspace</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">3:45</div>
+                    </div>
+                    <div class="popular-track flex-row align-center">
+                        <img src="./images/Out of My Hands.png" alt="out of my hands" class="track-cover">
+                        <div class="track-info flex-column ml-15 align-start">
+                            <h3 class="track-title text-uppercase">Burn Money Burn</h3>
+                            <p class="artist-title">Morten Harket</p>
+                        </div>
+                        <div class="track-length">3:52</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-discography" class="pt-100 pb-100">
+            <div class="container flex-column">
+                <h2 class="text-uppercase">Дискография</h2>
+                <div class="flex-row flex-wrap gap-25-50">
+                    <div class="discography-item flex-column align-start">
+                        <img src="./images/Brother.png" alt="brother" class="disc-cover">
+                        <div class="discography-info">
+                            <h3 class="album-name white">Brother</h3>
+                            <p class="album-date">2014</p>
+                        </div>
+                    </div>
+                    <div class="discography-item flex-column align-start">
+                        <img src="./images/Out of My Hands.png" alt="out of my hands" class="disc-cover">
+                        <div class="discography-info">
+                            <h3 class="album-name white">Out Of My Hands</h3>
+                            <p class="album-date">2012</p>
+                        </div>
+                    </div>
+                    <div class="discography-item flex-column align-start">
+                        <img src="./images/Letter from Egypt.png" alt="letter from egypt" class="disc-cover">
+                        <div class="discography-info">
+                            <h3 class="album-name white">Letter From Egypt</h3>
+                            <p class="album-date">2008</p>
+                        </div>
+                    </div>
+                    <div class="discography-item flex-column align-start">
+                        <img src="./images/Vogts Villa.png" alt="vogts villa" class="disc-cover">
+                        <div class="discography-info">
+                            <h3 class="album-name white">Vogts Vills</h3>
+                            <p class="album-date">1996</p>
+                        </div>
+                    </div>
+                    <div class="discography-item flex-column align-start">
+                        <img src="./images/Wild Seed.png" alt="wild seed" class="disc-cover">
+                        <div class="discography-info">
+                            <h3 class="album-name white">Wild Seed</h3>
+                            <p class="album-date">1995</p>
+                        </div>
+                    </div>
+                    <div class="discography-item flex-column align-start">
+                        <img src="./images/Poetenes Evangelium.png" alt="Poetenes Evangelium.png" class="disc-cover">
+                        <div class="discography-info">
+                            <h3 class="album-name white">Poetenes Evangelium</h3>
+                            <p class="album-date">1993</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="page-similar" class="pb-100">
+            <div class="container flex-column align-start">
+                <h2 class="text-uppercase">Похожие исполнители</h2>
+                <div class="flex-row flex-wrap gap-25-50">
+                    <div class="similar-item">
+                        <img src="./images/A-ha.png" alt="A-ha" class="disc-cover">
+                        <div class="similar-info">
+                            <h3 class="artist-name text-center white">A-Ha</h3>
+                            <p class="followers text-center">417 086 поклонников</p>
+                        </div>
+                    </div>
+                    <div class="similar-item">
+                        <img src="./images/Tears for Fears.png" alt="tears for fears" class="disc-cover">
+                        <div class="similar-info">
+                            <h3 class="artist-name text-center white">Tears For Fears</h3>
+                            <p class="followers text-center">434 086 поклонников</p>
+                        </div>
+                    </div>
+                    <div class="similar-item">
+                        <img src="./images/Duran Duran.png" alt="duran duran" class="disc-cover">
+                        <div class="similar-info">
+                            <h3 class="artist-name text-center white">Duran Duran</h3>
+                            <p class="followers text-center">631 071 поклонник</p>
+                        </div>
+                    </div>
+                    <div class="similar-item">
+                        <img src="./images/Jack Savoretti.png" alt="Нjack savoretti" class="disc-cover">
+                        <div class="similar-info">
+                            <h3 class="artist-name text-center white">Jack Savoretti</h3>
+                            <p class="followers text-center">26 857 поклонников</p>
+                        </div>
+                    </div>
+                    <div class="similar-item">
+                        <img src="./images/Keane.png" alt="Не забудьте про alt" class="disc-cover">
+                        <div class="similar-info">
+                            <h3 class="artist-name text-center white">Keane</h3>
+                            <p class="followers text-center">1 704 358 поклонников</p>
+                        </div>
+                    </div>
+                    <div class="similar-item">
+                        <img src="./images/Frank Sinatra.png" alt="frank sinatra" class="disc-cover">
+                        <div class="similar-info">
+                            <h3 class="artist-name text-center white">Frank Sinatra</h3>
+                            <p class="followers text-center">1 653 882 поклонников</p>
+                        </div>
+                    </div>
+                    <div class="similar-item">
+                        <img src="./images/Paul Young.png" alt="paul young" class="disc-cover">
+                        <div class="similar-info">
+                            <h3 class="artist-name text-center white">Paul Young</h3>
+                            <p class="followers text-center">50 329 поклонников</p>
+                        </div>
+                    </div>
+                    <div class="similar-item">
+                        <img src="./images/Chris Rea.png" alt="Chris Rea" class="disc-cover">
+                        <div class="similar-info">
+                            <h3 class="artist-name text-center white">Chris Rea</h3>
+                            <p class="followers text-center">73 351 поклонников</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer text-standart">
+        <div class="container flex-row footer-top">
+            <div class="footer-item">
+                <h3>О нас</h3>
+                <a href="#">История компании</a>
+                <a href="#">Карьера</a>
+                <a href="#">Особенности</a>
+                <a href="#">Пресса</a>
+            </div>
+            <div class="footer-item">
+                <h3>Поддержка</h3>
+                <a href="#">База знаний</a>
+                <a href="#">Тарифы</a>
+                <a href="#">Мобильное приложение</a>
+                <a href="#">Условия использования</a>
+            </div>
+            <div class="footer-item">
+                <h3>Контакты</h3>
+                <a href="#">hello@music.box</a>
+                <a href="#">Russia, Moscow. Music Box studio</a>
+                <a href="#">+ 7 499 999 99 99</a>
+            </div>
+            <div class="footer-item">
+                <h3>Подписывайтесь</h3>
+                <img src="./images/Google+.png" alt="google+">
+                <img src="./images/Twitter.png" alt="twitter" class="ml-24">
+            </div>
+        </div>
+        <div class="white-line"></div>
+        <div class="container flex-row footer-bot">
+            <a href="" class="footer-item">Магазин</a>
+            <a href="" class="ml-16  footer-item">Обслуживание</a>
+            <a href="" class="ml-16  footer-item">Блог</a>
+            <a href="" class="ml-16  footer-item">Поддержка</a>
+            <a href="" class="ml-16  footer-item">Контакты</a>
+        </div>
+    </footer>
