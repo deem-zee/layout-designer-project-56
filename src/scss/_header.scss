@@ -1,0 +1,74 @@
+@use 'variables' as vars;
+
+.header {
+	width: 100%;
+	position: absolute;
+	top: 25px;
+	font-size: 11px;
+	z-index: 2;
+}
+
+.header-nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+@media screen and (max-width: 1240px) and (min-width: 414px) {
+	.header-nav {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 18px;
+	}
+}
+
+.nav-logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 16px;
+}
+
+.nav-logo-img {
+	width: 25px;
+}
+
+.nav-list {
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+	list-style-type: none;
+}
+
+@media screen and (max-width: 1240px) and (min-width: 414px) {
+	.nav-list {
+		flex-direction: column;
+		gap: 0;
+	}
+}
+
+
+
+.nav-link:hover {
+	color: white;
+	font-size: 11px;
+}
+
+.nav-search {
+	margin-left: auto;
+	background: vars.$dark;
+	border-radius: 50px;
+	padding: 5px 10px;
+	width: 248px;
+	border: none;
+	&::placeholder {
+		color: rgb(117, 117, 117);
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.nav-search {
+		margin-left: 0;
+		width: 100%;
+	}
+}

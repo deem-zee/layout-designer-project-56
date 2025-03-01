@@ -1,0 +1,23 @@
+.popular-track-cover {
+	width: 55px;
+}
+
+.popular-track {
+	width: 575px;
+}
+
+.popular-track-name {
+	 
+}
+
+.popular-track-info {
+	width: 505px;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 1240px) {
+	.popular-track {
+		width: 100%;
+	}
+}
+

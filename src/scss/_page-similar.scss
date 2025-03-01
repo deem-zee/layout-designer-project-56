@@ -1,0 +1,9 @@
+.similar-image {
+	width: 250px;
+}
+
+@media screen and (max-width: 1240px) and (min-width: 414px) {
+	.similar-image, .similar-item {
+		width: 137px;
+	}
+}

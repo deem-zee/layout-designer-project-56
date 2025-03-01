@@ -1,0 +1,9 @@
+.discography-cover {
+	width: 250px;
+}
+
+@media screen and (max-width: 1240px) {
+	.discography-item, .discography-cover {
+		width: 137px;
+	}
+}

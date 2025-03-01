@@ -1,0 +1,61 @@
+@use 'variables' as vars;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto';
+	color: #cacacaca;
+}
+
+body {
+	position: relative;
+	background: #08020d;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 90px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 1240px) {
+	h1 {
+		font-size:30px;
+		line-height: 45px;
+	}
+}
+
+h2 {
+	font-size: 38px;
+	line-height: 57px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 1240px) {
+	h2 {
+		font-size:18px;
+		line-height: 27px;
+	}
+}
+
+.container {
+	max-width: 1240px;
+	min-width: 414px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+
+.btn {
+	padding: 20px 30px;
+	border-radius: 5px;
+	width: 100%;
+}
+
+section {
+	width: 100%;
+	background: vars.$black;
+}

@@ -1,0 +1,211 @@
+@use 'variables' as vars;
+
+// text properties
+.uppercase {
+	text-transform: uppercase;
+}
+
+.text-decoration-none {
+	text-decoration: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.list-style-none {
+	list-style-type: none;
+}
+
+// font-weight 
+
+.normal {
+	font-weight: 400;
+}
+
+// text-color
+.text-white {
+	color: vars.$white;
+}
+
+.text-orange {
+	color: vars.$orange;
+}
+
+.lh-150 {
+	line-height: 150%;
+}
+
+// margin properties
+.mr-16 {
+	margin-right: 16px;
+}
+
+.mr-50 {
+	margin-right: 50px;
+}
+
+.mt-50 {
+	margin-right: 50px;
+}
+
+.mr-90 {
+	margin-right: 90px;
+}
+
+.mb-16 {
+	margin-bottom: 16px;
+}
+
+.mb-17 {
+	margin-bottom: 17px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.mb-24 {
+	margin-bottom: 24px;
+}
+
+.mb-25{
+	margin-bottom: 25px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+
+.mb-45 {
+	margin-bottom: 45px;
+}
+
+.mb-48 {
+	margin-bottom: 48px;
+}
+
+.mb-64 {
+	margin-bottom: 64px;
+}
+
+.mb-65 {
+	margin-bottom: 65px;
+}
+
+.mb-100 {
+	margin-bottom: 100px;
+}
+
+.mb-200 {
+	margin-bottom: 200px;
+}
+
+.ml-16 {
+	margin-left: 16px;
+}
+
+// padding properties
+
+.pt-100 {
+	padding-top: 100px;
+}
+
+.pt-200 {
+	padding-top: 200px;
+}
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+
+.pb-200 {
+	padding-bottom: 200px;
+}
+
+// background
+
+.bg-green {
+	background: vars.$green;
+}
+
+.bg-red {
+	background: vars.$red;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.bg-purple {
+	background: vars.$purple;
+}
+// .bg-black {
+// 	background: #08020d;
+// }
+
+.bg-transparent {
+	background: transparent;
+}
+
+// display
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-space-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.gap-15 {
+	gap: 15px;
+}
+
+.gap-16 {
+	gap: 16px;
+}
+
+.gap-18 {
+	gap: 18px;
+}
+
+.gap-24 {
+	gap: 24px;
+}
+
+.gap-25-50 {
+	gap: 25px 50px ;
+}
+// blocks
+
+.block-center {
+	display: block;
+	margin: 0 auto;
+}

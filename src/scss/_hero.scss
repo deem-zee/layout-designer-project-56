@@ -1,0 +1,26 @@
+.hero {
+	width: 100%;
+	position: relative;
+}
+
+.hero::before {
+	background-image: url('../images/Morten\ Harket.png') !important;
+}
+
+.hero-btn-block {
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 1240px) {
+	.hero-btn-block {
+		flex-direction: column;
+	}
+}
+
+.btn-hero {
+	width: 200px;
+	padding: 20px 30px;
+	font-size: 12.8px;
+	border: none;
+}
