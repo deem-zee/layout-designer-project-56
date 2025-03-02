@@ -26,6 +26,10 @@
   color: rgb(248, 146, 2);
 }
 
+.fs-12 {
+  font-size: 12px;
+}
+
 .fs-32 {
   font-size: 32px;
 }
@@ -499,7 +503,7 @@ sup {
   }
 }
 .news-btn {
-  padding: 16px 30px !important;
+  padding: 18px 30px !important;
   width: -moz-fit-content;
   width: fit-content;
   border: 1px solid rgb(202, 202, 202);
