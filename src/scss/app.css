@@ -26,6 +26,10 @@
   color: rgb(248, 146, 2);
 }
 
+.fs-32 {
+  font-size: 32px;
+}
+
 .lh-150 {
   line-height: 150%;
 }
@@ -102,12 +106,20 @@
   margin-left: 16px;
 }
 
+.pt-40 {
+  padding-top: 40px;
+}
+
 .pt-100 {
   padding-top: 100px;
 }
 
 .pt-200 {
   padding-top: 200px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
 }
 
 .pb-100 {
@@ -389,6 +401,12 @@ main::before {
 }
 .btn-submit {
   border: 1px solid rgb(8, 2, 13);
+  font-size: 13.3px;
+}
+
+.plan-description {
+  font-size: 12.8px;
+  line-height: 150%;
 }
 
 .pricing-plan-list {
@@ -434,6 +452,8 @@ main::before {
 
 .btn-order {
   border: 1px solid rgb(224, 224, 224);
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
 
 .plan-price {
@@ -533,7 +553,7 @@ sup {
   display: flex;
   flex-direction: row;
   gap: 16px;
-  padding: 2rem 0;
+  padding: 40px 0 49px;
 }
 
 .footer-nav {
@@ -558,6 +578,11 @@ sup {
     gap: 30px;
   }
 }
+hr {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
 .footer-nav-item-list-header {
   font-size: 18px;
   line-height: 27px;

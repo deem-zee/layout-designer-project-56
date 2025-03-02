@@ -32,6 +32,12 @@
 	color: vars.$orange;
 }
 
+// fotn-size
+
+.fs-32 {
+	font-size: 32px;
+}
+
 .lh-150 {
 	line-height: 150%;
 }
@@ -111,12 +117,20 @@
 
 // padding properties
 
+.pt-40 {
+	padding-top: 40px;
+}
+
 .pt-100 {
 	padding-top: 100px;
 }
 
 .pt-200 {
 	padding-top: 200px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
 }
 
 .pb-100 {

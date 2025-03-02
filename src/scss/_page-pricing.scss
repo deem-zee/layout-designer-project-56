@@ -1,6 +1,9 @@
 @use 'variables' as vars;
 
-
+.plan-description {
+	font-size: 12.8px;
+	line-height: 150%;
+}
 
 .pricing-plan-list {
 	display: flex;
@@ -45,6 +48,8 @@
 
 .btn-order {
 	border: 1px solid vars.$gray;
+	padding-top: 21px;
+	padding-bottom: 21px;
 }
 
 .plan-price {
