@@ -598,6 +598,7 @@ sup {
 @media screen and (max-width: 1240px) {
   .page-app-img {
     order: 1;
+    margin-left: 40px;
   }
   .page-app-text {
     order: 2;
