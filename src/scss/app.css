@@ -520,7 +520,7 @@ sup {
     margin-bottom: 16px;
   }
   .time-stamp {
-    font-size: 16px;
+    font-size: 12.8px;
   }
   .news-text {
     margin-bottom: 24px;
@@ -664,6 +664,7 @@ hr {
 @media screen and (max-width: 1240px) {
   .popular-track {
     width: 100%;
+    font-size: 12.8px;
   }
 }
 .discography-cover {
@@ -672,7 +673,10 @@ hr {
 
 @media screen and (max-width: 1240px) {
   .discography-item, .discography-cover {
-    width: 137px;
+    width: 138px;
+  }
+  .discography-info h3 {
+    font-size: 18px;
   }
 }
 .similar-image {
