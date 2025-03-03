@@ -49,10 +49,21 @@ h2 {
 }
 
 
+// .btn {
+// 	padding: 20px 30px;
+// 	border-radius: 5px;
+// 	width: 100%;
+// }
+
 .btn {
-	padding: 20px 30px;
-	border-radius: 5px;
-	width: 100%;
+  width: 100%;
+  height: auto;
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-size: 13.3px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
 }
 
 section {

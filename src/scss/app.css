@@ -126,6 +126,10 @@
   padding-top: 200px;
 }
 
+.pb-48 {
+  padding-bottom: 48px;
+}
+
 .pb-50 {
   padding-bottom: 50px;
 }
@@ -260,9 +264,14 @@ h2 {
 }
 
 .btn {
+  width: 100%;
+  height: auto;
   padding: 20px 30px;
   border-radius: 5px;
-  width: 100%;
+  font-size: 13.3px;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
 }
 
 section {
@@ -542,46 +551,58 @@ sup {
     order: 1;
   }
 }
-.page-app-container {
+.page-app-inner {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0 9rem;
 }
 
-.page-app-item {
-  width: 50%;
-}
-.page-app-item p {
-  font-size: 16px;
-  line-height: 150%;
-  margin: 16px 0;
+.page-app-text {
+  flex: 1 1 350px;
+  max-width: 600px;
+  line-height: 1.5;
 }
 
-.page-app-banner {
+.page-app-img {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+}
+
+.page-app-link {
+  padding: 19px 40px;
+  max-width: 131px;
+  margin-top: 16px;
+  display: block;
+}
+
+.page-app-link-style {
+  border: none;
+  border-radius: 32px;
+  background-color: rgb(149, 57, 12);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-t-b-16 {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 @media screen and (max-width: 1240px) {
-  .page-app-container {
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 16px;
+  .page-app-img {
+    order: 1;
   }
-  .page-app-item {
-    max-width: 1239px;
-    min-width: 414px;
+  .page-app-text {
+    order: 2;
   }
 }
-.btn-download {
-  font-size: 12.8px;
-  line-height: 150%;
-  background: rgb(149, 57, 12);
-  border-radius: 32px;
-  padding: 16px 40px;
-  border: none;
-}
-
 .footer-menu {
   display: flex;
   flex-direction: row;
