@@ -103,7 +103,7 @@
 }
 
 .mb-100 {
-  margin-bottom: 100px;
+  margin-bottom: 100px !important;
 }
 
 .mb-200 {
@@ -499,7 +499,7 @@ sup {
 }
 
 .news-text {
-  line-height: 150%;
+  line-height: 24px;
   margin-bottom: 15px;
 }
 
