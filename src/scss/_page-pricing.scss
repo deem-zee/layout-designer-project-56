@@ -59,8 +59,11 @@
 }
 
 @media screen and (max-width: 454px) {
+	.pricing-plans {
+		justify-content: flex-start;
+	}
 	.plan-card {
-		min-width: 374px;
+		// min-width: 374px;
 	}
 }
 
