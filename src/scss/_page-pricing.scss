@@ -1,0 +1,81 @@
+@use 'variables' as vars;
+
+.pricing-plans {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0 50px;
+}
+
+.btn-order {
+	font-size: 16px;
+	line-height: 150%;
+	border: 1px solid vars.$white;
+	border-radius: 5px;
+	padding: 21px 0;
+	width: 100%;
+}
+
+.plan-name {
+	padding-top: 24px;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.plan-description {
+	font-size: 12.8px;
+}
+
+@media screen and (max-width: 1239px) {
+	.plan-name {
+		padding-top: 16px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+.plan-card {
+	width: calc((1200px - 100px) / 3);
+	padding: 0 1.5rem;
+	border-radius: 1rem;
+}
+
+.plan-card:nth-of-type(1) {
+	background: url(../images/subscribe_1.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.plan-card:nth-of-type(2) {
+	background: url(../images/subscribe_2.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.plan-card:nth-of-type(3) {
+	background: url(../images/subscribe_3.png);
+	background-position: center;
+	background-size: cover;
+}
+
+@media screen and (max-width: 454px) {
+	.plan-card {
+		// width: 414px;
+	}
+}
+
+.plan-price {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	p {
+		font-size: 64px;
+		line-height: 64px;
+	}
+	
+}
+
+sup {
+	font-size: 32px;
+	line-height: 150%;
+}

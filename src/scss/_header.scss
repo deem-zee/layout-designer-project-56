@@ -1,0 +1,51 @@
+@use 'variables' as vars;
+
+header {
+	font-size: 11px;
+	color: vars.$dark-gray;
+	position: absolute;
+	top: 25px;
+	p {
+		margin: 0;
+	}
+}
+
+.logo-img {
+	width: 24px;
+}
+
+.header-nav-link {
+	a {
+		color: vars.$dark-gray;
+	}
+	a:hover {
+		color: vars.$white;
+	}
+	
+}
+
+.header-nav-search {
+	width: 248px;
+	padding: 5px 10px;
+	border-radius: 50px;
+	font-size: 13.3px;
+	// line-height: 15px;
+	&::placeholder {
+		text-transform: uppercase;
+		color: vars.$dark-gray;
+	}
+}
+
+@media screen and (max-width: 1239px) {
+	.header-nav-search {
+		width: 100%
+	}
+
+	.header-nav {
+		margin-bottom: 18px;
+	}
+
+	.header-nav-link  {
+		line-height: 13px;
+	}
+}

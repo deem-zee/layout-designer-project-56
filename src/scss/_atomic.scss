@@ -1,0 +1,123 @@
+@use 'variables' as vars;
+
+// border
+
+.no-border {
+	border: none;
+}
+
+// margins
+.mr-24 {
+	margin-right: 24px;
+}
+
+.mr-90 {
+	margin-right: 90px;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+
+.mb-45 {
+	margin-bottom: 45px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.mb-64 {
+	margin-bottom: 64px;
+}
+
+.mb-200 {
+	margin-bottom: 200px;
+}
+// paddings
+
+.pt-100 {
+	padding-top: 100px !important;
+}
+
+// text props
+
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.text-decoration-none {
+	text-decoration: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+@media screen and (max-width: 1239px) {
+	.to-700 {
+		font-weight: 700;
+
+	}
+}
+// text color
+
+.text-white {
+	color: vars.$white !important;
+}
+
+
+.text-dark-gray {
+	color: vars.$dark-gray;
+}
+
+
+// background
+
+.bg-dark {
+	background: vars.$dark;
+}
+
+.bg-transparent {
+	background: transparent;
+}
+// display flex props
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-row-to-column {
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 1239px) {
+	.flex-row-to-column {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-space-between {
+	justify-content: space-between;
+}
+
+.gap-16 {
+	gap: 16px;
+}
+
+.gap-24 {
+	gap: 24px;
+}
+
+sup {
+	font-size: 32px;
+}

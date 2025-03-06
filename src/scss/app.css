@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+.no-border {
+  border: none;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mr-90 {
+  margin-right: 90px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+.pt-100 {
+  padding-top: 100px !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media screen and (max-width: 1239px) {
+  .to-700 {
+    font-weight: 700;
+  }
+}
+.text-white {
+  color: rgb(225, 225, 225) !important;
+}
+
+.text-dark-gray {
+  color: rgb(202, 202, 202);
+}
+
+.bg-dark {
+  background: rgb(60, 59, 61);
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-to-column {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1239px) {
+  .flex-row-to-column {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+sup {
+  font-size: 32px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-basis: 1240px;
+  margin: 0;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: rgb(202, 202, 202);
+  background: rgb(8, 2, 13);
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1239px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1239px) {
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.container {
+  width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1239px) {
+  .container {
+    width: 100%;
+    min-width: 454px;
+  }
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+header {
+  font-size: 11px;
+  color: rgb(202, 202, 202);
+  position: absolute;
+  top: 25px;
+}
+header p {
+  margin: 0;
+}
+
+.logo-img {
+  width: 24px;
+}
+
+.header-nav-link a {
+  color: rgb(202, 202, 202);
+}
+.header-nav-link a:hover {
+  color: rgb(225, 225, 225);
+}
+
+.header-nav-search {
+  width: 248px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 13.3px;
+}
+.header-nav-search::-moz-placeholder {
+  text-transform: uppercase;
+  color: rgb(202, 202, 202);
+}
+.header-nav-search::placeholder {
+  text-transform: uppercase;
+  color: rgb(202, 202, 202);
+}
+
+@media screen and (max-width: 1239px) {
+  .header-nav-search {
+    width: 100%;
+  }
+  .header-nav {
+    margin-bottom: 18px;
+  }
+  .header-nav-link {
+    line-height: 13px;
+  }
+}
+.pricing-plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 50px;
+}
+
+.btn-order {
+  font-size: 16px;
+  line-height: 150%;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 5px;
+  padding: 21px 0;
+  width: 100%;
+}
+
+.plan-name {
+  padding-top: 24px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.plan-description {
+  font-size: 12.8px;
+}
+
+@media screen and (max-width: 1239px) {
+  .plan-name {
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.plan-card {
+  width: 366.6666666667px;
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+}
+
+.plan-card:nth-of-type(1) {
+  background: url(../images/subscribe_1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.plan-card:nth-of-type(2) {
+  background: url(../images/subscribe_2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.plan-card:nth-of-type(3) {
+  background: url(../images/subscribe_3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.plan-price {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.plan-price p {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+sup {
+  font-size: 32px;
+  line-height: 150%;
+}/*# sourceMappingURL=app.css.map */
