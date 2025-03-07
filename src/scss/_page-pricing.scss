@@ -1,84 +1,87 @@
 @use 'variables' as vars;
 
-.pricing-plans {
+
+
+.plans {
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	gap: 0 50px;
+	gap: 50px;
 }
 
-.btn-order {
-	font-size: 16px;
-	line-height: 150%;
-	border: 1px solid vars.$white;
-	border-radius: 5px;
-	padding: 21px 0;
+.plan {
+	position: relative;
+	flex: 1 1 366px;
+	padding: 0 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 16px;
+	padding-top: 24px;
+}
+
+@media screen and (max-width: 1239px) {
+	.plan {
+		padding-top: 16px;
+	}
+}
+
+.plan::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
+	height: 100%;
+	background: url(../images/subscribe_1.png);
+	background-position: center;
+  background-size: cover;
+	z-index: -1;
+	border-radius: 16px;
+}
+
+.plan:nth-of-type(2)::before {
+	background: url(../images/subscribe_2.png);
+	background-position: center;
+  background-size: cover;
+}
+
+.plan:nth-of-type(3)::before {
+	background: url(../images/subscribe_3.png);
+	background-position: center;
+  background-size: cover;
 }
 
 .plan-name {
-	padding-top: 24px;
 	font-size: 24px;
 	line-height: 36px;
+}
+
+@media screen and (max-width: 1239px) {
+	.plan-name {
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 700;
+	}
+}
+
+.plan-price {
+	p {
+		font-size: 64px;
+		line-height: 64px;
+	}
+	sup {
+		margin-left: 16px;
+		font-size: 32px;
+		line-height: 150%;
+	}
 }
 
 .plan-description {
 	font-size: 12.8px;
 }
 
-@media screen and (max-width: 1239px) {
-	.plan-name {
-		padding-top: 16px;
-		font-size: 16px;
-		line-height: 24px;
-	}
-}
-
-.plan-card {
-	width: calc((1200px - 100px) / 3);
-	padding: 0 1.5rem;
-	border-radius: 1rem;
-}
-
-.plan-card:nth-of-type(1) {
-	background: url(../images/subscribe_1.png);
-	background-position: center;
-	background-size: cover;
-}
-
-.plan-card:nth-of-type(2) {
-	background: url(../images/subscribe_2.png);
-	background-position: center;
-	background-size: cover;
-}
-
-.plan-card:nth-of-type(3) {
-	background: url(../images/subscribe_3.png);
-	background-position: center;
-	background-size: cover;
-}
-
-@media screen and (max-width: 454px) {
-	.pricing-plans {
-		justify-content: flex-start;
-	}
-	.plan-card {
-		// min-width: 374px;
-	}
-}
-
-.plan-price {
-	display: flex;
-	gap: 16px;
-	justify-content: center;
-	p {
-		font-size: 64px;
-		line-height: 64px;
-	}
-	
-}
-
-sup {
-	font-size: 32px;
-	line-height: 150%;
+.btn-order {
+	// border-radius: 16px;
+	border: 1px solid vars.$white;
 }
