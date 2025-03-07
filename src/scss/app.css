@@ -180,7 +180,7 @@ h2 {
 @media screen and (max-width: 1239px) {
   .container {
     width: 100%;
-    min-width: 454px;
+    min-width: 414px;
   }
 }
 ul {
@@ -260,11 +260,6 @@ header p {
   padding-top: 24px;
 }
 
-@media screen and (max-width: 1239px) {
-  .plan {
-    padding-top: 16px;
-  }
-}
 .plan::before {
   content: "";
   position: absolute;
@@ -318,5 +313,13 @@ header p {
 }
 
 .btn-order {
+  font-size: 16px;
   border: 1px solid rgb(225, 225, 225);
+}
+
+.page-pricing-text {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 150%;
 }/*# sourceMappingURL=app.css.map */
