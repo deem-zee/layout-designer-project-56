@@ -53,8 +53,16 @@
   margin-bottom: 200px;
 }
 
+.m-0 {
+  margin: 0;
+}
+
 .pt-100 {
   padding-top: 100px !important;
+}
+
+.pb-3 {
+  padding-bottom: 3px;
 }
 
 .fs-16 {
@@ -271,7 +279,7 @@ header p {
 }
 
 .page-pricing-h2 {
-  padding: 101px 0 45px;
+  padding-bottom: 45px;
 }
 
 .pricing-item h3 {
