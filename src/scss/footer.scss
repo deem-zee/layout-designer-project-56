@@ -1,0 +1,36 @@
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 24px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-col {
+  flex-grow: 1;
+  padding: 62px 0 72px;
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 15px;
+  }
+
+  a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+}
+
+.footer-end {
+  display: flex;
+  gap: 0 16px;
+  padding-top: 40px;
+  padding-bottom: 49px;
+}
