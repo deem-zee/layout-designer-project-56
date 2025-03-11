@@ -26,31 +26,31 @@
 	}
 }
 
-// .plan::before {
-// 	content: '';
-// 	position: absolute;
-// 	top: 0;
-// 	left: 0;
-// 	width: 100%;
-// 	height: 100%;
-// 	background: url(../images/subscribe_1.png);
-// 	background-position: center;
-//   background-size: cover;
-// 	z-index: -1;
-// 	border-radius: 16px;
-// }
+.plan::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/subscribe_1.png);
+	// background-position: center;
+  background-size: cover;
+	z-index: -1;
+	border-radius: 16px;
+}
 
-// .plan:nth-of-type(2)::before {
-// 	background: url(../images/subscribe_2.png);
-// 	background-position: center;
-//   background-size: cover;
-// }
+.plan:nth-of-type(2)::before {
+	background: url(../images/subscribe_2.png);
+	// background-position: center;
+  background-size: cover;
+}
 
-// .plan:nth-of-type(3)::before {
-// 	background: url(../images/subscribe_3.png);
-// 	background-position: center;
-//   background-size: cover;
-// }
+.plan:nth-of-type(3)::before {
+	background: url(../images/subscribe_3.png);
+	// background-position: center;
+  background-size: cover;
+}
 
 .plan-name {
 	font-size: 24px;
