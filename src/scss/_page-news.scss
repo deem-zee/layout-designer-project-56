@@ -1,0 +1,14 @@
+@use 'variables' as vars;
+
+.avatar {
+	width: 19px;
+}
+
+.news-author {
+	font-size: 12px;
+	line-height: 19.2px;
+}
+
+@media screen and (max-width: 414px) {
+	
+}
