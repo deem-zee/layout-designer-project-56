@@ -318,6 +318,13 @@ header p {
   line-height: 36px;
 }
 
+@media screen and (max-width: 1239px) {
+  .plan-name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+}
 .plan-price p {
   font-size: 64px;
   line-height: 100%;
@@ -325,7 +332,7 @@ header p {
 .plan-price sup {
   margin-left: 16px;
   font-size: 32px;
-  line-height: 150%;
+  line-height: 100%;
 }
 
 .btn-order {
@@ -334,7 +341,7 @@ header p {
 }
 
 .plan-description {
-  font-size: 12.8px;
+  font-size: 12.67px;
   line-height: 150%;
 }
 

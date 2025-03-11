@@ -58,11 +58,11 @@
 }
 
 @media screen and (max-width: 1239px) {
-	// .plan-name {
-	// 	font-size: 16px;
-	// 	line-height: 24px;
-	// 	font-weight: 700;
-	// }
+	.plan-name {
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 700;
+	}
 }
 
 .plan-price {
@@ -73,7 +73,7 @@
 	sup {
 		margin-left: 16px;
 		font-size: 32px;
-		line-height: 150%;
+		line-height: 100%;
 	}
 }
 
@@ -83,7 +83,7 @@
 }
 
 .plan-description {
-	font-size: 12.8px;
+	font-size: 12.67px;
 	line-height: 150%;
 }
 
