@@ -49,6 +49,10 @@
   margin-bottom: 50px;
 }
 
+.mb-63 {
+  margin-bottom: 63px;
+}
+
 .mb-64 {
   margin-bottom: 64px;
 }
@@ -323,7 +327,7 @@ header p {
 }
 .plan-price p {
   font-size: 64px;
-  line-height: 60px;
+  line-height: 100%;
 }
 .plan-price sup {
   margin-left: 16px;
