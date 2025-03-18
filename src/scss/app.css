@@ -70,11 +70,15 @@
 }
 
 .mb-100 {
-  margin-bottom: 100px;
+  margin-bottom: 100px !important;
 }
 
 .mb-200 {
   margin-bottom: 200px;
+}
+
+.pt-16 {
+  padding-top: 16px;
 }
 
 .pt-100 {
