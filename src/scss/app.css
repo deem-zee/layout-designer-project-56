@@ -387,6 +387,7 @@ header p {
 }
 
 .btn-to-album {
+  padding: 16px 30px;
   border: 1px solid rgb(202, 202, 202);
   border-radius: 5px;
   font-size: 12px;
