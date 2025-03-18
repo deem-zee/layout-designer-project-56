@@ -19,6 +19,10 @@
 	margin-right: 90px;
 }
 
+.mb-16 {
+	margin-bottom: 16px;
+}
+
 .mb-24 {
 	margin-bottom: 24px;
 }
@@ -53,6 +57,10 @@
 
 .mb-64 {
 	margin-bottom: 64px;
+}
+
+.mb-100 {
+	margin-bottom: 100px;
 }
 
 .mb-200 {
@@ -117,6 +125,10 @@
 
 .bg-transparent {
 	background: transparent;
+}
+
+.bg-red {
+	background: vars.$red;
 }
 // display flex props
 
