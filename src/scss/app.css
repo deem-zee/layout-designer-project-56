@@ -134,6 +134,10 @@
   background: rgb(149, 57, 12);
 }
 
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -464,4 +468,43 @@ header p {
   .app-text-block, .app-banner {
     width: 100%;
   }
+}
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 40px 0 49px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 62px 0 72px;
+}
+
+.footer-menu-link, .footer-nav-link {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(224, 224, 224);
+}
+
+@media screen and (max-width: 1240px) {
+  .footer-menu {
+    flex-direction: column;
+  }
+  .footer-nav {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+hr {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.footer-nav-item-list-header {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
 }/*# sourceMappingURL=app.css.map */
