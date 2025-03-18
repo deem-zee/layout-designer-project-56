@@ -122,6 +122,14 @@
 
 
 // background
+.bg-purple {
+	background: vars.$purple;
+}
+
+
+.bg-green {
+	background: vars.$green;
+}
 
 .bg-dark {
 	background: vars.$dark;
@@ -165,12 +173,28 @@
 	justify-content: space-between;
 }
 
+.justify-center {
+	justify-content: center;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.gap-15 {
+	gap: 15px;
+}
+
 .gap-16 {
 	gap: 16px;
 }
 
 .gap-24 {
 	gap: 24px;
+}
+
+.gap-25-50 {
+	gap: 25px 50px ;
 }
 
 sup {

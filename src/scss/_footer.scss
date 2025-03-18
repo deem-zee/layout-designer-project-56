@@ -35,8 +35,8 @@
 }
 
 hr {
-	width: 100vw;
-	margin-left: calc(50% - 50vw);
+	width: calc(100% + 40px);
+	margin-left: -20px;
 }
 
 .footer-nav-item-list-header {

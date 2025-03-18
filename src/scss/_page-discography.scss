@@ -1,0 +1,24 @@
+.discography-cover {
+	width: 250px;
+}
+
+.discography-info {
+	h3 {
+		font-size: 18px;
+		line-height: 27px;
+	}
+	p {
+		font-size: 16px;
+		line-height: 150%;
+	}
+}
+
+@media screen and (max-width: 1240px) {
+	.discography-item, .discography-cover {
+		width: 138px;
+	}
+	.discography-info h3 {
+		font-size: 18px;
+		line-height: 27px;
+	}
+}

@@ -122,6 +122,14 @@
   color: rgb(202, 202, 202);
 }
 
+.bg-purple {
+  background: rgb(83, 40, 161);
+}
+
+.bg-green {
+  background: rgb(52, 193, 118);
+}
+
 .bg-dark {
   background: rgb(60, 59, 61);
 }
@@ -162,12 +170,28 @@
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
 .gap-16 {
   gap: 16px;
 }
 
 .gap-24 {
   gap: 24px;
+}
+
+.gap-25-50 {
+  gap: 25px 50px;
 }
 
 sup {
@@ -243,6 +267,63 @@ ul {
   padding: 20px 30px;
   border: none;
   border-radius: 5px;
+}
+
+main {
+  position: relative;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1240px) {
+  main {
+    padding-top: 250px !important;
+  }
+}
+.registration-form {
+  margin: 0 auto;
+  max-width: 570px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.registration-input {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  border: 2px solid rgb(202, 202, 202);
+  border-radius: 3px;
+  background: transparent;
+}
+.registration-input::-moz-placeholder {
+  color: rgb(225, 225, 225);
+}
+.registration-input::placeholder {
+  color: rgb(225, 225, 225);
+}
+
+@media screen and (max-width: 1239px) {
+  .registration-input {
+    width: 100%;
+  }
+}
+.btn-submit {
+  border: 1px solid rgb(8, 2, 13);
+  font-size: 13.3px;
+  width: 100%;
 }
 
 header {
@@ -499,12 +580,98 @@ header p {
   }
 }
 hr {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
+  width: calc(100% + 40px);
+  margin-left: -20px;
 }
 
 .footer-nav-item-list-header {
   font-size: 18px;
   line-height: 27px;
   font-weight: 700;
+}
+
+.hero {
+  width: 100%;
+  position: relative;
+}
+
+.hero::before {
+  background-image: url("../images/Morten Harket.png") !important;
+}
+
+.hero-btn-block {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1240px) {
+  .hero-btn-block {
+    flex-direction: column;
+  }
+}
+.btn-hero {
+  width: 200px;
+  padding: 20px 30px;
+  font-size: 12.8px;
+  border: none;
+}
+
+.similar-image {
+  width: 250px;
+}
+
+.similar-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+}
+.similar-info p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 1240px) and (min-width: 414px) {
+  .similar-image, .similar-item {
+    width: 137px;
+  }
+}
+.popular-track-cover {
+  width: 55px;
+}
+
+.popular-track {
+  width: 575px;
+}
+
+.popular-track-info {
+  width: 505px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1240px) {
+  .popular-track {
+    width: 100%;
+    font-size: 12.8px;
+  }
+}
+.discography-cover {
+  width: 250px;
+}
+
+.discography-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+}
+.discography-info p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 1240px) {
+  .discography-item, .discography-cover {
+    width: 138px;
+  }
+  .discography-info h3 {
+    font-size: 18px;
+    line-height: 27px;
+  }
 }/*# sourceMappingURL=app.css.map */
