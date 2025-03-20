@@ -298,7 +298,7 @@ main::before {
   #page-description {
     padding-top: 250px !important;
   }
-  h2 {
+  main h2 {
     margin-bottom: 16px !important;
   }
 }
