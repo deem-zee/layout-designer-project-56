@@ -298,6 +298,9 @@ main::before {
   #page-description {
     padding-top: 250px !important;
   }
+  h2 {
+    margin-bottom: 16px !important;
+  }
 }
 .registration-form {
   margin: 0 auto;
