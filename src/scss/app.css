@@ -218,7 +218,6 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  max-width: 1240px;
   margin: 0 auto;
   font-family: "Roboto";
   font-size: 16px;
@@ -340,6 +339,8 @@ header {
   color: rgb(202, 202, 202);
   position: absolute;
   top: 25px;
+  left: 50%;
+  transform: translate(-50%);
 }
 header p {
   margin: 0;
