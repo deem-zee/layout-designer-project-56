@@ -301,6 +301,9 @@ main::before {
   main h2 {
     margin-bottom: 16px !important;
   }
+  .gap-3 {
+    gap: 3px;
+  }
 }
 .registration-form {
   margin: 0 auto;
