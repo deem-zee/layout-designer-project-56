@@ -334,6 +334,12 @@ main::before {
   .registration-input {
     width: 100%;
   }
+  .registration-input::-moz-placeholder {
+    font-weight: 700;
+  }
+  .registration-input::placeholder {
+    font-weight: 700;
+  }
 }
 .btn-submit {
   border: 1px solid rgb(8, 2, 13);
