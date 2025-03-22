@@ -59,6 +59,8 @@ main::before {
 @media screen and (max-width: 1239px) {
 	.registration-input {
 		width: 100%;
+		font-size: 14px;
+		line-height: 16px;
 		&::placeholder {
 			font-weight: 700;
 		}
