@@ -52,7 +52,7 @@ main::before {
 	background: transparent;
 	&::placeholder {
 		color: vars.$white;
-		
+
 	}
 }
 
@@ -70,5 +70,7 @@ main::before {
 .btn-submit {
 	border: 1px solid vars.$black;
 	font-size: 13.3px;
+	line-height: 15px;
 	width: 100%;
+	font-family: Arial;
 }
