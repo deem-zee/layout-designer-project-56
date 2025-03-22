@@ -378,11 +378,11 @@ header p {
 }
 .header-nav-search::-moz-placeholder {
   text-transform: uppercase;
-  color: rgb(202, 202, 202);
+  color: rgb(117, 117, 117);
 }
 .header-nav-search::placeholder {
   text-transform: uppercase;
-  color: rgb(202, 202, 202);
+  color: rgb(117, 117, 117);
 }
 
 @media screen and (max-width: 1239px) {

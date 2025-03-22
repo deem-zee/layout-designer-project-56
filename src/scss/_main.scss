@@ -52,6 +52,7 @@ main::before {
 	background: transparent;
 	&::placeholder {
 		color: vars.$white;
+		
 	}
 }
 
