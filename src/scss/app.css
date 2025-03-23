@@ -629,8 +629,6 @@ hr {
 .hero {
   width: 100%;
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 25px;
 }
 
 .hero::before {
@@ -652,8 +650,6 @@ hr {
   .hero {
     width: 100%;
     position: relative;
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 }
 .btn-hero {
