@@ -17,6 +17,10 @@
   border: none;
 }
 
+.mb-1 {
+  margin-bottom: 1px;
+}
+
 .mt-24 {
   margin-top: 24px;
 }
@@ -266,7 +270,7 @@ h2 {
 @media screen and (max-width: 1239px) {
   .container {
     width: 100%;
-    min-width: 374px;
+    min-width: 414px;
   }
 }
 ul {
@@ -276,7 +280,7 @@ ul {
 }
 
 .btn {
-  padding: 21px 30px;
+  padding: 20px 30px;
   border: none;
   border-radius: 5px;
 }
