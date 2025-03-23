@@ -633,6 +633,7 @@ hr {
 .hero {
   width: 100%;
   position: relative;
+  padding-bottom: 225px !important;
 }
 
 .hero::before {
@@ -652,8 +653,8 @@ hr {
     flex-direction: column;
   }
   .hero {
-    width: 100%;
-    position: relative;
+    padding-top: 225px !important;
+    padding-bottom: 225px !important;
   }
 }
 .btn-hero {

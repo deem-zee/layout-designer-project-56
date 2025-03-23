@@ -1,6 +1,7 @@
 .hero {
 	width: 100%;
 	position: relative;
+	padding-bottom: 225px !important;
 }
 
 .hero::before {
@@ -20,8 +21,8 @@
 		flex-direction: column;
 	}
 	.hero {
-		width: 100%;
-		position: relative;
+		padding-top: 225px !important;
+		padding-bottom: 225px !important;
 	}
 }
 
