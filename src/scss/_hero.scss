@@ -1,6 +1,8 @@
 .hero {
 	width: 100%;
 	position: relative;
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
 
 .hero::before {
@@ -15,9 +17,15 @@
 	flex-direction: row;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1239px) {
 	.hero-btn-block {
 		flex-direction: column;
+	}
+	.hero {
+		width: 100%;
+		position: relative;
+		padding-top: 0px;
+		padding-bottom: 0px;
 	}
 }
 
