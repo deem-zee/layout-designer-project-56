@@ -93,6 +93,10 @@
   padding-bottom: 200px !important;
 }
 
+.pt-250 {
+  padding-top: 250px;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
