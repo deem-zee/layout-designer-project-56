@@ -303,6 +303,9 @@ ul {
     padding-top: 250px !important;
     padding-bottom: 200px !important;
   }
+  .mobile {
+    padding-bottom: 201px !important;
+  }
   main h2 {
     margin-bottom: 16px !important;
   }
